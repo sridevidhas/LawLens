@@ -1,0 +1,30 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables and secrets
+.env
+**/.env
+
+# Django
+db.sqlite3
+staticfiles/
+
+# AI and vector database
+chroma_db/
+**/chroma_db/
+legal_docs/
+**/legal_docs/
+
+# React
+node_modules/
+dist/
+build/
+
+# Editor
+.vscode/
+.DS_Store
